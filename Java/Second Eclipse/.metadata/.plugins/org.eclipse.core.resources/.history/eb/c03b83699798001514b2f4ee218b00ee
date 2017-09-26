@@ -1,0 +1,52 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.util.Random;
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+
+public class Application {
+
+
+public static void main(String []args) throws FileNotFoundException
+{
+	 String[] names = {"Nathan", "Keelyn", "Whitney", "Jessica", "Dylan",
+		       "Luis", "Cam", "David", "Ryan", "Kaleb"};
+		       
+		       ArrayPractice array = new ArrayPractice(10, names);
+		       
+		       int value[] = array.getCopyNumbers();
+		       System.out.print("Here are the random numbers:\n\n\t");
+		       for (int count = 0; count < value.length; count++)
+		       {
+		           System.out.print(value[count] + "   ");
+		       }
+		       System.out.print("\n\n");   
+		       
+		       Rectangle value1[] = array.getCopyRectangles();
+		       System.out.print("Here are the random rectangle data of length and width:\n\n\t");
+		       for (int count1 = 0; count1 < value1.length; count1++)
+		       {
+		           System.out.printf("%.4f     %.4f\n\t", value1[count1].getLength(),
+		                   value1[count1].getWidth());
+		       }
+		       System.out.print("\n");
+		       System.out.print("Here are your friends:\n\n\t");
+		       for (int count = 0; count < names.length; count++)
+		       {
+		           System.out.print(names[count] + "  ");
+		       }
+		       
+		       
+}
+
+}
+
+
+	

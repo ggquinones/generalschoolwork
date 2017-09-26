@@ -1,0 +1,44 @@
+
+public class Problem3 
+{
+
+	public static void main(String[] args) 
+	{
+		TaylorMethodOrder2(0.0,1.0,10,8.0);
+
+	}
+
+	public static void TaylorMethodOrder2(double a,double b,int N,double OMEGA)
+	{
+		double h =(b-a)/N;
+		double t = a;
+		double w = OMEGA;
+		System.out.printf("t\t\tw\n%f\t%f\n",t,w);		
+		for(int i =1;i<=N;i++)
+		{
+			w = w + (h)*T2(w,h);
+			t= a+i*h;
+			System.out.printf("%f\t%f\n",t,w);
+		}		
+	}
+	
+	
+	static double func(double w,double h)
+	{
+		double m,k,g;
+		m = 0.11;
+		k = 0.002;
+		g = 9.8;		
+		//return (((2.0*k*m*g)+(2.0*k*k*w*w))/ (m*m));
+		return ((-2.0 *m*m*g) + (-2.0*m*k*w*w) + (2.0*k*h*m*g) + (2*k*k*h*w*w))/(2.0*m*m);
+	}
+	
+	static double T2(double w,double h)
+	{
+		double m,k,g;
+		m = 0.11;
+		k = 0.002;
+		g = 9.8;		
+		return (-g - ((k*w*w)/m)) + (.1/2.0)*( ( (2*k*g)/m) + ((2*k*k*w*w)/(m*m)));
+	}
+}

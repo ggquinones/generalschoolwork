@@ -1,0 +1,983 @@
+id  authors                                                                     
+1   John Schember
+2   J. Jay (john Jay) Smith & John F. (john Fanning) Watson
+3   T. S. Arthur
+4   Nevil Shute
+5   Frances Burney
+6   Unknown
+7   Unknown
+8   Logan Marshall
+9   Unknown
+10  Unknown
+11  Rudolf von Gottschall & Bertha Ness
+12  Clemence Housman
+13  Harriet Myrtle
+14  Louis Becke
+15  Various
+16  Laura Lee Hope
+17  Arthur W. Ryder
+18  F. T. Jane
+19  Edward Burt
+20  Unknown
+21  Icon Group International
+22  Mr Frederick William Headland
+23  Unknown
+24  Lester Chadwick
+25  John J. Pikulski
+26  Nora Archibald Smith & Kate Douglas Smith Wiggin
+27  Unknown
+28  Rick Will
+29  Unknown
+30  Thomas A. Janvier
+31  Forbes Phillips & R. Thurston Hopkins
+32  Unknown
+33  John Wood
+34  Unknown
+35  Icon Group International
+36  Various
+37  Nancy K. MacLean
+38  Unknown
+39  Erich Segal
+40  Unknown
+41  Unknown
+42  Joel Chandler Harris
+43  Kris Michaels
+44  Ray S. Baker
+45  Edward Sylvester Ellis
+46  O'Rell
+47  Roald Amundsen
+48  Unknown
+49  Unknown
+50  Mandasue Heller
+51  By (author) Various.
+52  Randall Garrett
+53  Allan Cunningham
+54  Unknown
+55  Theodore Roosevelt
+56  Riya Pundir
+57  Dorothy Wordsworth
+58  Mrs. George de Horne Vaizey
+59  James Parkerson
+60  See Notes Multiple Contributors
+61  Icon Group International
+62  Rheta Childe Dorr
+63  James H. Mapleson
+64  L. T. Meade
+65  William Butler Yeats & W. B. Yeats
+66  Knud Rasmussen & W. Worster
+67  Melvin E. Trotter
+68  Andrew Lang
+69  Unknown
+70  Unknown
+71  Various .
+72  Unknown
+73  Various
+74  Unknown
+75  Norval Richardson
+76  Charles A. Eastman
+77  Unknown
+78  Gertrude W. Morrison
+79  Henry M. Stanley
+80  Anonymous & Dunda Books & John B. Gruelle
+81  United States Dept. Of The Interior
+82  Gordon Home
+83  Gerald W. Page
+84  Unknown
+85  Unknown
+86  Sherard Osborn
+87  Charles Dickens
+88  Wanda E. Brunstetter
+89  Unknown
+90  James Avis Bartley
+91  Catherine Owen
+92  Benjamin Disraeli
+93  Unknown
+94  George Robert Stowe Mead
+95  George Sand & Jane Monot Sedgwick & Ellery Sedgwick
+96  Unknown
+97  Harry Castlemon
+98  Norman Draper
+99  Icon Group International
+100 James Fenimore Cooper
+101 Unknown
+102 Jennifer Fretland Vanvoorst & Richard Greenfield
+103 Bret Harte
+104 Snyder Harry 1867-1927
+105 Unknown
+106 Arnold Bennett
+107 Various
+108 Volume 1
+109 Bruce Ashford
+110 Max Beerbohm & N. John Hall
+111 Plautus & E. F. Watling
+112 Unknown
+113 Unknown
+114 Reginald Hill
+115 Icon Group International
+116 Unknown
+117 Sidford F. Hamp
+118 Jim Kjelgaard
+119 Unknown
+120 William Roberts
+121 Unknown
+122 E. V. (edward Verrall) Lucas
+123 Gustave Dore
+124 Unknown
+125 Andrew Lang
+126 Unknown
+127 Bernadine Bailey
+128 Unknown
+129 C. P Bailey
+130 Unknown
+131 Unknown
+132 Unknown
+133 Fergus Hume
+134 James Otis
+135 Bram Stoker
+136 Mary Roberts Rinehart
+137 George Eliot
+138 Imbert de Saint-Amand
+139 Unknown
+140 Unknown
+141 Unknown
+142 Charles Cottrell
+143 Unknown
+144 Duncan Norman
+145 Violeta D. Baluyut
+146 J. D. Beresford
+147 Leigh Hunt
+148 Unknown
+149 Richard Barnum
+150 Donald W. Janes
+151 Laurence Larson
+152 Donelan A M
+153 Edwin P. Whipple
+154 Hardpress
+155 Unknown
+156 Unknown
+157 James Randall Robison
+158 Anonymous
+159 Unknown
+160 Juliana Maio
+161 Warren G. Harris
+162 Unknown
+163 Edward Charles
+164 George O. Shields Shields
+165 Gustave Flaubert
+166 Translated - William Caxton & Edited By - Sydney J H Herrtage
+167 Icon Group International
+168 W. F. Burns
+169 Cyril. Davenport
+170 Unknown
+171 John Cairns & Ricardo Martinez
+172 Unknown
+173 Mr Samuel G Ayres
+174 Unknown
+175 Benjamin Franklin
+176 Nick Vulich
+177 James Otis
+178 Blessington Marguerite Of Countess
+179 J. W. Duffield
+180 Warren T. Ashton
+181 Unknown
+182 William Hazlitt
+183 Sherer Moyle
+184 Icon Group International
+185 Havelock Ellis
+186 Geo. S. Tyack
+187 James Schouler
+188 George Hamlin Fitch
+189 Dave Eggers
+190 Patricia Mason & Joann Baker
+191 E. W. Bullinger
+192 Henry Fielding
+193 Colin Jones
+194 W. C. Scully
+195 Thornton W. Burgess
+196 Juliet Marillier
+197 Walter (editor) Scott
+198 George Bernard Shaw
+199 Unknown
+200 Edward F. O'Day
+201 Unknown
+202 G. A. Henty
+203 Unknown
+204 Kaiten Nukariya
+205 Unknown
+206 John Burroughs
+207 Unknown
+208 Stephen F. Weston
+209 Unknown
+210 Unknown
+211 Charles Spencer
+212 Unknown
+213 Joshua R. Giddings
+214 Unknown
+215 W. Clark Russell
+216 Rufus Estes
+217 William Edward Cole
+218 Icon Group International
+219 Zona Gale
+220 Annie Wood Besant
+221 Harrison Adams
+222 C. S. Beardslee
+223 Unknown
+224 Unknown
+225 Al. G. (alfred Griffith) Field
+226 F. S. Brereton
+227 Frank V. Webster & 1stworld Library
+228 E. Werner & Christina Tyrrell
+229 Lucy Maud Montgomery
+230 Mrs. Elizabeth Karr
+231 Unknown
+232 Unknown
+233 George Barr McCutcheon & Harrison Fisher
+234 Various Authors
+235 Harry V. Vogt
+236 Unknown
+237 Roscoe Pound
+238 Charles Dickens
+239 Anonymous
+240 Sam Thomas
+241 John H. Seinfeld
+242 Edward Payson Roe
+243 John Mottley
+244 Unknown
+245 Nancy Werlin
+246 John Gibson Lockhart
+247 Unknown
+248 Unknown
+249 George Gilbert Collins W. W. -1862
+250 Unknown
+251 Jacob A. Riis
+252 Raemaekers Louis
+253 W. T. (william Thomas) Vincent
+254 Unknown
+255 Rollin H. Baker
+256 Ridgwell Cullum
+257 Hutchins Hapgood
+258 Max Rothschild
+259 Samuel Pepys
+260 Unknown
+261 Unknown
+262 Emile Zola
+263 Ralph Straus
+264 Unknown
+265 Alfred Coppel
+266 George John Romanes
+267 Daniella Martin
+268 William Heyliger
+269 Carolyn Sherwin Bailey
+270 Parsons Francis 1871-1937
+271 Callie James
+272 Kevin Gerald Rau
+273 Unknown
+274 Unknown
+275 Edith Wharton
+276 Armando Palacio Valdes
+277 Unknown
+278 Bjørnson Bjørnstjerne & The Perfect Library
+279 Francis Burnand
+280 Unknown
+281 Unknown
+282 Unknown
+283 Larry M. Bartels
+284 Edward Payson Roe
+285 R. W. Ferrier
+286 Ambrose Bierce & E. (emanuel) Haldeman-Julius
+287 George Sylvester Viereck
+288 Dante Alighieri & Henry Francis Cary & Dante Gabriel Rossetti
+289 W. J. (ward J.) 1881- MacNeal
+290 April, 1884
+291 John Mason & Nancy Baker
+292 Baker Rollin H (rollin Harold)
+293 Unknown
+294 Uknown
+295 Unknown
+296 Unknown
+297 James de Mille
+298 Maurice Hewlett
+299 Georg Ebers & Clara Bell
+300 John Abbott
+301 Jules Verne
+302 Library Of Congress. Copyright Office
+303 Unknown
+304 Questions of the Hour
+305 Robert Chambers & William Chambers
+306 F. N. Blanchet
+307 Tony Johnston & Lloyd Bloom
+308 Frau Arndt
+309 Morgan Rice
+310 Mark Twain
+311 Edna Lyall
+312 Thelma Gooch & Grace Brooks Hill
+313 Slason Thompson
+314 Thomas Stevens
+315 Joanna Hooe Mathews
+316 Unknown
+317 Charles Dudley Warner
+318 Geoffrey Chaucer & Walter W. Skeat
+319 Howard R. (howard Roger) Garis
+320 Icon Group International
+321 Unknown
+322 Unknown
+323 Nora Sakavic
+324 Frank V. Webster
+325 Unknown
+326 Kathryn le Veque & Eliza Knight & Emma Prince & Victoria Vane & Cathy
+    MacRae & Hildie McQueen & Ruth Kaufman & Barbara Devlin
+327 David Starr Jordan
+328 Unknown
+329 Natalie Sumner Lincoln
+330 Unknown
+331 B. C. Burgess
+332 Ellen G. White
+333 Jacques Casanova de Seingalt
+334 Giuliana Cavallini
+335 Archer Butler Hulbert
+336 D. R. (david Robert) Mace
+337 Leo Nikolayevich Tolstoy & Nathan Haskell Dole
+338 Pepys & Mynors Bright
+339 H. I. Larry
+340 Franklin Matthews
+341 Unknown
+342 Unknown
+343 Unknown
+344 Unknown
+345 John H. Cady & Basil Woon
+346 Various
+347 Various
+348 Judson Isabella Field
+349 Gilbert Parker
+350 Captain Mayne Reid
+351 Icon Group International
+352 José Luis de Rojas
+353 Effendi Shoghi
+354 4 July 2011 Album
+355 Unknown
+356 Various
+357 Jack London
+358 Samuel Taylor Coleridge
+359 John Foxe
+360 Unknown
+361 Unknown
+362 Youghal The Younger Joseph Of
+363 Unknown
+364 Standish O'Grady
+365 Monsieur L'Abbat
+366 Lewis Spence
+367 Myiesha
+368 William Cobbett
+369 Maria S. Cummins
+370 Allison Amend
+371 Harry Harrison & Charles Brey
+372 Mary E. Wilkins Freeman
+373 Edward Ingle
+374 Various
+375 C. Shana Greger
+376 Unknown
+377 Edward Bulwer Lytton
+378 Eva March Tappan
+379 May Sinclair
+380 Woody Barlow
+381 Elizabeth Whitney Williams
+382 Unknown
+383 Perceval Gibbon
+384 Micah Ballard
+385 F. S. Brereton
+386 Ogden George W (george Washington)
+387 Henry Herbert Goddard
+388 Unknown
+389 Unknown
+390 James P. Smythe
+391 Alexandre Dumas
+392 Giorgio Vasari
+393 Various
+394 John Richard Jefferies
+395 John Henry Jowett
+396 Una L. Silberrad
+397 Various
+398 Helen Archibald Clarke & The Perfect Library
+399 Cibber Colley
+400 Unknown
+401 H. C. Bunner
+402 Unknown
+403 Dwight Moody
+404 Percy Moore Turner
+405 Various
+406 Unknown
+407 Jim Anderson
+408 Unknown
+409 Unknown
+410 Mabel Quiller-Couch
+411 Various Authors
+412 Paul de Kock
+413 Society For Pure English
+414 Arthur Winfield
+415 Freeman Nicieza Brown
+416 Arthur Davison Ficke
+417 Various Authors
+418 Leslie Moore
+419 J. G. Millingen
+420 Unknown
+421 Unknown
+422 Unknown
+423 Unknown
+424 Thornton W. Burgess
+425 Oliver Onions
+426 Unknown
+427 Margaret Wolfe Hamilton & Duchess
+428 Mark
+429 Unknown
+430 George Manville Fenn
+431 Unknown
+432 Laura Lippman
+433 Lauren Layne
+434 Osborne Company
+435 Unknown
+436 Anthony Trollope
+437 Major-General Adolphus W. Greely
+438 P. G. Wodehouse
+439 Unknown
+440 Mary E. Wilkins Freeman
+441 Anton Chekhov
+442 Various
+443 Sir Burnand
+444 Sue Petigru Bowen
+445 Amy le Feuvre
+446 Laura Lee Hope
+447 National Geographic Maps - Adventure
+448 Unknown
+449 Georg Ebers & Mary J. Safford
+450 Annie Besant
+451 Unknown
+452 John Steinbeck
+453 Havelock Ellis
+454 Unknown
+455 Clement C. Moore & Sara S. Hodson
+456 Annie F. Johnston
+457 Henry Rider Haggard
+458 David Eugene Smith & Louis Charles Karpinski
+459 Percival Pollard
+460 Anonymous
+461 Unknown
+462 Robert Lynd
+463 Ryan Gravel
+464 Unknown
+465 Baha'U'llah
+466 John J. Piper
+467 Yei Theodora Ozaki
+468 Claude Fayette Bragdon
+469 Unknown
+470 Unknown
+471 H. Irving Hancock
+472 Unknown
+473 Julia de Winton
+474 William J. (william James) Flynn
+475 John W. B. 1868 Ivimey & Walter Corbould
+476 Unknown
+477 Unknown
+478 Various
+479 Latest
+480 Reuben Gold Thwaites
+481 Ben Jonson
+482 J S Marciano
+483 S. P. Meek
+484 Marie-Louise von Franz
+485 Unknown
+486 Rosamund Marriott Watson
+487 Morrissey
+488 Credo Harris
+489 Unknown
+490 Arnold Bennett
+491 William Henry Hudson
+492 Unknown Author
+493 F. Jewell
+494 E. Bruce Holmes
+495 W. S. (william Sanders) Scarborough
+496 Claire Thompson
+497 R. M. Ballantyne
+498 Various .
+499 Unknown
+500 Burt L. Standish
+501 Unknown
+502 Unknown
+503 Unknown
+504 Unknown
+505 Unknown
+506 George Francis Atkinson
+507 Ray Cummings
+508 Hezekiah Butterworth
+509 R. B. Ainsworth
+510 Notestein Wallace
+511 Unknown
+512 Héctor Tobar
+513 Swanston Edition Vol. 18 (of 25)
+514 David Gerow Irving
+515 Bertha M. Clark
+516 Joseph Sheridan le Fanu
+517 Various
+518 Felix Moscheles
+519 William Sleeman
+520 Unknown
+521 Eldred Nathaniel Woodcock
+522 C. J. (clarence James) Dennis
+523 Joseph Hergesheimer
+524 Unknown
+525 John G. Nicolay
+526 E. Phillips Oppenheim
+527 Joseph Alexander Altsheler
+528 Emmerson W Manning
+529 Charles King & Charles J. Post
+530 Christina Ong
+531 Francis L Wellman
+532 Unknown
+533 Clive Cussler
+534 Herbert Strang
+535 Unknown
+536 Unknown
+537 O'Hagan O'Hagan
+538 Hardpress
+539 Various
+540 Horace Walpole
+541 Henry Rider Haggard
+542 Strong Grace Cooke
+543 Sarah Bennett
+544 Unknown
+545 Mildred Aldrich
+546 Eleanor Stuart
+547 Unknown
+548 James Geikie
+549 Unknown
+550 T. Tindall Wildridge
+551 Frances Ellen Watkins Harper
+552 Arthur Scott Bailey
+553 Anonymous .
+554 Florence Finch Kelly
+555 Harry W. Pfanz
+556 Unknown
+557 Unknown
+558 Sophie May
+559 Ruth Russell
+560 Unknown
+561 Unknown
+562 Barbara Kesel
+563 Various
+564 Unknown
+565 Richard Dowling
+566 Gilbert Parker
+567 Unknown
+568 Thomas W. Hanshew
+569 Clarence Poe
+570 David Starr Jordan
+571 John Ashton
+572 Mabel Osgood Wright
+573 Various
+574 Unknown
+575 Unknown
+576 Unknown
+577 Unknown
+578 Christopher Brookmyre
+579 Michel de Montaigne & Charles Cotton
+580 Unknown
+581 Karen Hancock
+582 Unknown
+583 Unknown
+584 Sam Bennett
+585 Society For Pure English .
+586 Hardpress
+587 Unknown
+588 John Smelcer
+589 Josephine Dodge Daskam Bacon
+590 Jessica Koslow
+591 Ross Kay
+592 Anne Kitch
+593 Unknown
+594 Charles Landon Goodrich
+595 Various
+596 Unknown
+597 Unknown
+598 Robert E. Howard
+599 Unknown
+600 Denise Kiernan
+601 W. Somerset Maugham
+602 Amy Harlow (lane), Mrs., 1873- [from Old Catalog], . Waterman
+603 Anonymous
+604 Unknown
+605 Kate Douglas Wiggin & Mary Findlater & Jane Findlater
+606 Unknown
+607 Col. William F. Cody
+608 May
+609 Unknown
+610 Helen Gosney
+611 Motley John Lothrop
+612 Charles King
+613 Abner Cheney Goodell
+614 de Zafra Carlos
+615 Thomas Platter
+616 Betham Edwards Matilda & The Perfect Library
+617 Sally Ann Melia
+618 Anthony Storr
+619 Unknown
+620 Timothy Keller
+621 Unknown
+622 Roy Chapman Andrews
+623 Jean Ferris
+624 Various
+625 Sir Arthur Conan Doyle
+626 Unknown
+627 Unknown
+628 Various
+629 Lascelles Abercrombie
+630 Unknown
+631 Alexander van Millingen
+632 Wilkie Collins
+633 Unknown
+634 Unknown
+635 Unknown
+636 Unknown
+637 Mrs. Herbert Strang
+638 James Branch Cabell
+639 Yoav Peled
+640 William Wood
+641 Unknown
+642 St. Fiech
+643 Mary Kubica
+644 Lady Harriet Julia Campbell Jephson
+645 Tonya Reiman
+646 Icon Group International
+647 Donna Fletcher
+648 Richard Harding Davis
+649 Unknown
+650 Joel Elias Spingarn
+651 Austin Steward
+652 Zhingoora Bible Series
+653 Kuno Francke
+654 T. R. Fehrenbach
+655 E. W Hornung
+656 Thomas J. Wertenbaker
+657 Unknown
+658 George Mac Gregor
+659 Lagerlö & Selma F
+660 Icon Group International
+661 Lover Samuel
+662 Edmond de Goncourt
+663 Unknown
+664 Honore de Balzac & Katharine Prescott Wormeley
+665 Mary Cholmondeley
+666 Lewis Carroll
+667 Joaquin Miller
+668 Various
+669 R. Austin Freeman
+670 George Borrow
+671 Gerald Allan Sohl
+672 Thomas J. Ford
+673 Unknown .
+674 Muther Richard
+675 Goldwin Smith
+676 Jessie Mothersole
+677 E. P. Evans
+678 Unknown
+679 Richard Dowling
+680 Leonard Porter Ayres & May Ayres
+681 William le Queux
+682 Charlton Griffin & Louis Rhead & Audio Connoisseur
+683 Unknown
+684 Unknown
+685 Friend To The Peace & Prosperity Of Ir
+686 Joyce Magnin
+687 Selma Lagerlöf
+688 Unknown
+689 Roger Ward Babson
+690 John Cowper Powys
+691 Edwin C Galbreath
+692 Unknown
+693 Barbara Garland Polikoff
+694 Marcus Dods
+695 Carter G. Walker
+696 Various
+697 Unknown
+698 Theodore F. Wolfe
+699 Unknown
+700 George Soane
+701 Unknown
+702 Ron Cocking & Montague Summers
+703 John Foster Fraser
+704 Walter Bigges
+705 George Bernard Shaw
+706 Washington Irving
+707 Silvio A. Bedini
+708 Mrs. Oliphant
+709 Edward S. Ellis
+710 Richard Davey
+711 John Willis Clark
+712 Jen Hatmaker
+713 Icon Group
+714 Unknown
+715 Volume 40 of 55
+716 Unknown
+717 Natasha Sharma
+718 James Otis
+719 Hiram Chase
+720 Unknown
+721 Various
+722 Unknown
+723 Rueben Briggs Davenport
+724 Hugh Gibson
+725 Parker Fillmore
+726 Unknown
+727 Lewis Charles Lee
+728 Icon Group International
+729 Randy J. Ontiveros
+730 Various
+731 Robert Grant
+732 Miguel de Cervantes Saavedra & John Rutherford & Roberto Gonzalez
+    Echevarria
+733 Edward Berens
+734 P. N. Books
+735 Unknown
+736 Unknown
+737 Cibber C
+738 Wilbur Smith
+739 American School Of Correspondence
+740 Baroness Emmuska Orczy
+741 Unknown
+742 Sax Rohmer
+743 Sharan Newman
+744 Percy Addleshaw
+745 Unknown
+746 Grace Harriman
+747 Unknown
+748 Unknown
+749 Mary Augusta Ward
+750 Unknown
+751 Joanna Hooe Mathews
+752 Oscar Wilde
+753 Unknown
+754 Jane Dunnewold
+755 William J. Edwards & Consuela Lee & Daniel T. Williams
+756 Solomon Northup & Dover Thrift Editions
+757 William O. Stoddard
+758 Unknown
+759 Eugene Field
+760 Kevin M. Lowe
+761 Unknown
+762 Rudyard Kipling
+763 J. F. Rutherford
+764 Arthur Dekker Savage
+765 Harl Vincent
+766 Edward Stratemeyer
+767 Jules Verne & F. A. Malleson
+768 Helen Jackson
+769 Leo Tolstoy
+770 P. G. Wodehouse
+771 Various .
+772 Unknown
+773 James Walker
+774 Mary Gardiner Horsford
+775 Unknown
+776 Plato
+777 William Dean Howells
+778 Swami Achuthananda
+779 Emily Sarah Holt
+780 William Eleroy Curtis
+781 Amelia B. Edwards
+782 Unknown
+783 Margaret Widdemer
+784 Laura Lee Hope
+785 William J. Hopkins
+786 Dr. Washingon; Bureau Of Ethnology, Smithsonian Institution Matthews
+787 Bertrand Russell
+788 Anton Chekhov
+789 Saxon Andrew
+790 Baron Edward Bulmer-Lytton
+791 Joel Chandler Harris
+792 Erskine Childers
+793 William Carleton
+794 Mabel Quiller-Couch
+795 B. L. Farjeon
+796 Gilbert Parker
+797 Anonymous
+798 R. M. Ballantyne
+799 Fitz James O'Brien
+800 Chris Wooding
+801 Robert Borland
+802 H. Irving Hancock
+803 Jean-Nicolas Perlot
+804 Abbe Parenty & Brother Hermenegild Tosf
+805 Finlayson George
+806 Various
+807 Mr Lloyd Osbourne
+808 Mark J. Plotkin
+809 W. B. Phillips
+810 Percy Keese Fitzhugh
+811 Baron Edward Bulwer Lytton Lytton
+812 John Galsworthy
+813 Christopher Hare
+814 Various Authors
+815 Jacob Abbott
+816 Kate Chopin
+817 Icon Group International
+818 George Randolph Chester
+819 Sabine Baring-Gould
+820 Ernest W. Hamilton
+821 Eugene O'Neill
+822 P. Coffey
+823 Christopher Hibbert
+824 Evelyn E. Smith
+825 Robert Louis Stevenson
+826 S. P. Breckinridge
+827 Bruce Bryans
+828 Wade Mary Hazelton Blanchard
+829 Epictetus & P. E. Matheson
+830 George A. Birmingham
+831 G. Harvey (george Harvey) Ralphson
+832 Adoniram Judson Ladd
+833 Sabbath Readings
+834 Various
+835 G. A. Henty
+836 Frederic Dewitt Wells
+837 Fritz Leiber
+838 Hardpress
+839 Ms Grace May North
+840 George W. Shea
+841 Charles Armstrong
+842 Jim Butcher
+843 Robert Hugh Benson
+844 Alexander Dumbadze
+845 Various .
+846 Henry Fielding
+847 Thornton W. Burgess
+848 Nathaniel Hawthorne
+849 Various
+850 Emilie Baker Loring
+851 Various Authors
+852 Augustine Birrell
+853 Amelia E. Barr
+854 H. G. (herbert George) Wells
+855 Walter George Mason
+856 John M. Legler
+857 John F. Ross
+858 Edward Raymond Turner
+859 William James
+860 Charles William Chadwick Oman
+861 Cruikshank George
+862 F. Marion Crawford
+863 William Pittenger
+864 F. (francis) Hodgson
+865 David Nordmark
+866 Unknown
+867 G. Maspero & A. H. (archibald Henry) Sayce
+868 Unknown
+869 Robert L. Jestic
+870 Streetwise Maps Inc.
+871 James Fairfax McLaughlin & Dunda Books
+872 Unknown
+873 Helen Olive Belknap
+874 Brandon McMillan
+875 Fannie Hurst
+876 Hardpress
+877 Louis Tracy
+878 Zhingoora Bible Series
+879 Various
+880 Eleanor H. Porter
+881 Samuel Pepys
+882 Alexandre Dumas Fils
+883 Faye Sonja
+884 Grimm Brothers
+885 Morley John
+886 Anonymous
+887 Margaret Vandercook
+888 Martha Idell Fletcher Bellinger
+889 Joseph Slate & Ashley Wolff
+890 Esaias Tegnér & Thomas A. E. Holcomb & Martha A. Lyon Holcomb
+891 Kirsten Osbourne
+892 Algernon Charles Swinburne
+893 Charles S. Olcott
+894 C. D. Arnold
+895 Joseph Stump
+896 Hamlin Garland
+897 L H Woolley
+898 Jo Boaler
+899 Harold Harvey
+900 Blair E. Helen
+901 Xenophon
+902 A. M. Worthington
+903 Various
+904 Anonymous
+905 J. G. Patterson
+906 Unknown
+907 G. de Notre
+908 Nicholas Carter
+909 Bret Harte
+910 Angela Brazil
+911 H. G. Wells
+912 Anonymous
+913 John Symonds
+914 Unknown
+915 Louisa M¿hlbach
+916 Maria Edgeworth
+917 William E. Thompson & Joseph V. Hickey & Mica L. Thompson
+918 Blanchard Amy Ella
+919 Winston Churchill
+920 Burt L. Standish
+921 Wood Mrs Henry
+922 Various
+923 A. T. W. Marino
+924 H. Stanley Redgrove
+925 Mr Harold Morrow Sherman
+926 Alan Lemay
+927 Larry Niven
+928 Postnikov F A
+929 Sir Arthur Conan Doyle
+930 Various
+931 Marie van Vorst
+932 Geraldine Bonner
+933 Connie M. White
+934 Simon Ansley Ferrall
+935 Joseph C. Lincoln
+936 Dhan Gopal Mukerji
+937 German
+938 Stanley John Weyman
+939 G. Suetonius Tranquillus
+940 Icon Group International
+941 Unknown
+942 May Freighter
+943 Clark Wissler & Desmond Gahan
+944 Lester Chadwick
+945 Erik Larson
+946 Wilkie Collins
+947 James Dennistoun
+948 Jesse Walter Fewkes
+949 Molière & Curtis Hidden Page
+950 Icon Group International
+951 Thomas de Quincey
+952 Sarah Biglow
+953 A. Alpheus
+954 Henry Mills Alden & William Dean Howells
+955 John A. White
+956 Murray Leinster
+957 Mr. David Winkler
+958 Mildred A. Wirt
+959 Clifford D. Simak & Carl Jacobi
+960 Elinor Wylie
+961 F. G. Illustrated By W. H. Fry. Wheeler
+962 John A. Logan
+963 Various
+964 Paul Laurence Dunbar & E. W. Kemble
+965 Carey Baldwin
+966 Jean-Jacques Rousseau
+967 Various .
+968 Sir Walter Raleigh
+969 David Cory
+970 George William Brown
+971 Richard Connell
+972 Julia K. Duncan
+973 Various .
+974 Unknown
+975 Guy Thorne & The Perfect Library
+976 Work Projects Administration
+977 James Boswell
+978 Winston Churchill
+979 Beverly Cleary
+

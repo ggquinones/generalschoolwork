@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<title>Beach Ellum Luau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Shadows Into Light', cursive;}
+.menu {display: none}
+
+
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: 70% 50%;		
+    background-image: url("jousting.jpg");
+	background-position: center;
+    min-height: 90%;
+}
+#sectHeader{
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+#homeWords{
+	text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+</style>
+<body>
+
+
+<!-- Navigation Bar for the website. Clipped to top of webpage. -->
+<nav class="navbar navbar-inverse navbar-fixed-top ">
+  
+    <div class="container-fluid w3-xxlarge" >
+		<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			  </button>
+			  <a class="navbar-brand w3-xxlarge" href="index.html">Beach Ellum Luau</a>
+		</div>
+    
+		<div class="collapse navbar-collapse" id="myNavbar">
+			  <ul class="nav navbar-nav">
+				<li class="w3-xlarge"><a href="index.html">HOME</a></li>				  				
+			  </ul>	
+		</div>
+	
+    </div>
+</nav><!-- End of Navigation Bar Code -->
+
+<!-- Contact Us Div -->
+<form action="contactus.php" method="post" id= "Contact" class=" w3-padding-64 w3-container w3-card-4 w3-light-grey w3-xxlarge w3-text-blue w3-margin">
+		<h1 class="w3-center w3-jumbo" id="sectHeader">Contact Us!</h1>
+		 
+		<div class="w3-row w3-section ">
+		  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+			<div class="w3-rest">
+			  <input id="userFN" class="w3-input w3-border" name="firstname" type="text" placeholder="First Name">
+			</div>
+		</div>
+
+		<div class="w3-row w3-section">
+		  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+			<div class="w3-rest">
+			  <input id="userLN" class="w3-input w3-border" name="lastname" type="text" placeholder="Last Name">
+			</div>
+		</div>
+		
+		<div class="w3-row w3-section">
+		  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+			<div class="w3-rest">
+			  <input id="userComment" class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="message">
+			</div>
+		</div>
+		<button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button>
+</form>
+
+
+</body>
+</html>

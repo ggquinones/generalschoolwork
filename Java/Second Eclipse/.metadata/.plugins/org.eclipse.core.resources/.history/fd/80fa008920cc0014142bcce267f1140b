@@ -1,0 +1,94 @@
+import java.util.ArrayList;
+
+
+public abstract class Person
+{
+	private String name;
+	private int phoneNum;
+	private String address;	
+	private static ArrayList<Person> allPeople = new ArrayList<Person>();
+	private static int idBase = 0;
+	private int idNum;
+	
+	public Person(String name, int number, String address )
+	{
+		this.name=name;
+		this.phoneNum=number;
+		this.address=address;		
+		idBase++;
+		this.idNum=idBase;
+		allPeople.add(this);
+		if(idNum>2)
+		{
+		System.out.println("Your ID number is "+this.idNum);
+		}
+	}
+	
+	public int getID()
+	{
+		return this.idNum;
+	}
+	
+	public boolean checkForPerson(String name)
+	{
+		for(int i =0;i<allPeople.size();i++)
+		{
+			if(allPeople.get(i).getName().equalsIgnoreCase(name))
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public String getName()
+	{
+		return this.name;
+	}
+	
+	public Employee getEmp(String name)
+	{
+		int index=0;
+		for(int i =0;i<allPeople.size();i++)
+		{
+			if(allPeople.get(i).getName().equalsIgnoreCase(name))
+			{
+				index=i;
+			}
+		}
+		
+		return (Employee) allPeople.get(index) ;
+	}
+	
+	public Customer getCus(String name)
+	{
+		int index=0;
+		for(int i =0;i<allPeople.size();i++)
+		{
+			if(allPeople.get(i).getName().equalsIgnoreCase(name))
+			{
+				index=i;
+			}
+		}
+		
+		return (Customer)allPeople.get(index) ;
+	}
+
+	public static ArrayList<Person> getPersons()
+	{
+		return allPeople;
+	}
+	
+	public void allEmps()
+	{
+		System.out.println("Employee List:");
+		for(int i =0;i<allPeople.size();i++)
+		{
+			if(allPeople.get(i) instanceof Employee)
+			{
+				System.out.print(allPeople.get(i).getName()+"\n");
+			}
+		}
+		System.out.println();
+	}
+}

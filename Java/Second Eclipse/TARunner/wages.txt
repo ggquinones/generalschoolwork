@@ -1,0 +1,10 @@
+/**
+     * The choice made by the CS major is only justifiable if he works more
+     * than 28 days; because after the 28th day the CS major makes more than 1M
+     * a day; it however is not justifiable if he only works 27 days or less 
+     */
+
+I learned that you can have if statments in loops. 
+I wasn't sure how that worked before. As far as whether or 
+not the CS student made a good choice, as long as 
+he works for more than 21 days he will come out ahead.

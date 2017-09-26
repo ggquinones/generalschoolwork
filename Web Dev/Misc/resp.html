@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<title>Dallas Cup</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+
+#SignUp{
+	font-family: "Comic Sans MS", cursive, sans-serif
+	
+}
+
+
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: 70% 50%;		
+    background-image: url("skyline.png");
+	background-position: center;
+    min-height: 90%;
+}
+#sectHeader{
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+#homeWords{
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#feesheader{
+	margin: 64px;
+	text-shadow: -2px 0 black , 0 2px black , 2px 0 black , 0 -2px black ;
+}
+
+
+
+</style>
+<body>
+
+
+<!-- Navigation Bar for the website. Clipped to top of webpage. -->
+<nav class="navbar navbar-inverse navbar-fixed-top ">
+  
+    <div class="container-fluid w3-xxlarge" >
+		<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			  </button>
+			  <a class="navbar-brand w3-text-white w3-xxlarge" href="#home">Dallas Cup 2017</a>
+		</div>
+    
+		<div class="collapse navbar-collapse" id="myNavbar">
+			  <ul class="nav navbar-nav">
+				<li class="w3-xlarge"><a href="#home">HOME</a></li>
+				<li class="w3-xlarge"><a href="#rules">FORMAT & RULES</a></li>
+				<li class="w3-xlarge"><a href="#FeesPrizes">FEES & PRIZES</a></li>
+				<li class="w3-xlarge"><a href="#SignUp">SIGN UP!</a></li>
+				<li class="w3-xlarge"><a href="#Contact">CONTACT US</a></li>   				
+			  </ul>
+		</div>
+	
+    </div>
+</nav><!-- End of Navigation Bar Code -->
+
+<!-- Header with image -->
+<header class="bgimg w3-container " id="home">
+  <div class="w3-display-centerleft w3-padding-64">
+    <span class="w3-tag w3-xxlarge w3-hide-small w3-hide-medium">Men's Grass Volleyball Tournament June 24th!</span>
+  </div>
+  
+  
+  <div class="w3-display-centerright w3-padding-64">
+    <span class="w3-tag w3-xxlarge w3-hide-small w3-hide-medium">At the Lake Highlands YMCA<br>8920 Stults Rd, Dallas, TX 75243</span>
+  </div>
+  
+  <div class="w3-display-centerbottom w3-padding-64">
+    <span class="w3-tag w3-xxlarge w3-hide-small w3-hide-medium">Games start at Noon<br>Captain's meeting at 11:30 am<br> <span class="w3-text-red"><b>Sign Up online and pay at the tournament!</b> </span></span>
+  </div>
+  
+  <div class="w3-display-middle w3-center">
+    <span id ="homeWords" class="w3-text-green w3-hide-small " style="font-size:100px; font-weight:bold;">DALLAS<br>GRASS VOLLEYBALL CUP</span>    
+    <p><a href="#SignUp" class="w3-button w3-jumbo w3-green w3-hide-small w3-text-white">Sign-Up Now!</a></p>
+
+	<span id ="homeWords" class="w3-text-green w3-hide-large w3-hide-medium  " style="font-size:50px; font-weight:bold;">DALLAS<br>GRASS VOLLEYBALL CUP</span>    
+    <p><a href="#SignUp" class="w3-button w3-xlarge w3-green w3-hide-large w3-hide-medium w3-text-white">Sign-Up Now!</a></p>
+  </div>
+</header> <!-- End Header Div -->
+
+<!-- Location Container -->
+<div class="w3-container w3-whole w3-hide-large w3-hide-medium w3-padding-64" style="background-color:#53ff1a;">
+	
+		<div class="jumbotron">
+			<h1> <span class="w3-tag w3-xxlarge">Men's Grass Volleyball Tournament June 24th!</span></h1>
+			<h1><span class="w3-tag w3-xxlarge ">At the Lake Highlands YMCA<br>8920 Stults Rd, Dallas, TX 75243</span></h1>
+			<h1><span class="w3-tag w3-xxlarge">Games start at Noon<br>Captain's meeting at 11:30 am</span></h1>
+			<h1><span class="w3-tag w3-text-red"><b>Sign Up online and pay at the tournament!</b> </span><h1>
+		</div>
+	
+</div>
+<!-- Location Container -->
+
+<!-- Menu Container -->
+<div class="w3-container w3-aqua w3-padding-64 w3-xxlarge" id="rules">
+  <div class="w3-content">
+  
+    <h1 id ="sectHeader"class="w3-center w3-blue w3-jumbo " style="margin-bottom:64px; font-weight:bold; ">TOURNAMENT INFO.</h1>
+    <div class="w3-row w3-center w3-black w3-border ">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Format');" id="myLink">
+        <div class="w3-col s6 tablink w3-text-white w3-padding-large w3-hover-white">Format</div>
+      </a>
+      
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Rules');">
+        <div class="w3-col s6 tablink w3-text-white  w3-padding-large w3-hover-white">Rules</div>
+      </a>	  
+    </div>
+
+	
+	<div id="Format" class="w3-container w3-animate-left menu w3-padding-32 w3-white">
+		<h1><b>Men's 3 vs 3 Grass Volleyball on a standard beach doubles court  </b> </h1>
+        <p class="w3-text-black">- Teams can have a maximum of 4 players.</p>
+		<h1><b>Level of Play: Competitve Men's 3s</b> </h1>
+		
+		<div class="jumbotron w3-text-black w3-center ">
+			<h2><b>The tournament format will be based on the number of teams which register.<br>
+			   Varying formats shown below. </b> </h2>
+		</div>
+		<h1><b>4 or 5 Teams:</b></h1>
+        <p class="w3-text-black">- Round robin: 2 sets to 15 (No Cap)</p>
+		<p class="w3-text-black">  followed by</p>
+		<p class="w3-text-black">- Single elimination playoffs: Best 2 out of 3 sets. <br>First 2 to 21 ,3rd to 15. (No Cap)</p>
+		<hr>
+	    <h1><b>6 or 7 Teams:</b></h1>
+	    <p class="w3-text-black">- Pool Play: 2 sets to 15 (No Cap)</p>
+		<p class="w3-text-black">  followed by</p>
+		<p class="w3-text-black">- Single elimination playoffs: Best 2 out of 3 sets. <br>First 2 to 21 ,3rd to 15. (No Cap)</p>
+		<hr>
+	    <h1><b>8 Teams or more:</b></h1>
+	    <p class="w3-text-black">- Double elimination tournament: Best 2 out of 3 sets. <br>First 2 to 21 ,3rd to 15. (No Cap)</p>
+        
+	</div>
+	
+	
+    <div id="Rules" class="w3-container w3-animate-left menu w3-padding-32 w3-white">
+      <h1 class="w3-center"><b>Indoor Rules Except:</b> </h1>
+	  <hr>   
+	  <h1><b>- No open hand tips!</b> </h1>
+	  <hr>
+      <h1><b>- No let serve.</b> </h1>
+	  <hr>
+	  <h1><b>- No overhand pass on first contact.</b> </h1>
+	  <p class="w3-text-black">- Except for hard-driven hits.</p>
+	  <hr>
+	  <h1><b>No rotations  </b> </h1>
+	  <p class="w3-text-black">- Only serving order matters.</p>
+      
+           
+    </div>
+
+
+    <br>
+
+  </div>
+</div> <!-- End Menu Div -->
+
+  <!-- Fees & Prizes -->
+<div class="w3-row-padding w3-LawnGreen w3-xxlarge w3-padding-64 " id="FNP" >
+    
+	<div class="w3-center w3-padding-32" >
+      <h1 class="w3-center w3-jumbo w3-green" id ="feesheader" ><b>Fees & Prizes</b></h1>
+    </div>
+
+    <div class="w3-half w3-margin-top" style="background-color:LightGray;" >
+      <ul class="w3-ul  w3-center w3-hover-shadow">
+        <li class="w3-black w3-jumbo w3-xxlarge w3-padding-32">FEES</li>
+		<li class="w3-topbar w3-rightbar w3-leftbar w3-bottombar w3-border-green"><b>Entry Fee:</b> </li>
+		<li class="w3-padding-16">
+          <h3 class="w3-jumbo" style="font-weight:bold;">$30</h3>
+		  <h4 class="w3-xxlarge" style="font-weight:bold;">PER PLAYER</h4>
+          	 
+        </li>
+		
+		<li class="w3-text-red"> <b>Sign Up online and pay at the tournament!</b>   </li>
+        <li class="w3-topbar w3-rightbar w3-leftbar w3-bottombar w3-border-green"><b>Cash Prizes for top two teams!</b> </li>
+        
+        
+        <li class="w3-light-grey w3-padding-24">          
+		  <a href="#SignUp" class="w3-hide-large w3-hide-medium w3-button w3-xxlarge w3-green w3-text-white">Sign-Up Now!</a>
+		  <a href="#SignUp" class="w3-hide-small w3-button w3-jumbo w3-green w3-text-white">Sign-Up Now!</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-half w3-margin-top">
+      <ul class="w3-ul  w3-center w3-hover-shadow">
+        <li class="w3-black w3-jumbo w3-xxlarge  w3-padding-32">PRIZES</li>
+        <li class="w3-padding-16 w3-yellow"><b>FIRST PLACE</b></li>
+        <li class="w3-padding-16 w3-jumbo w3-topbar w3-rightbar w3-leftbar w3-border-green"><b>$200</b></li>
+		
+        <li class="w3-padding-16 w3-light-grey"><b>SECOND PLACE</b></li>
+        <li class="w3-padding-16 w3-wide w3-topbar w3-rightbar w3-leftbar w3-bottombar w3-border-green"><b>Money Back</b></li>
+		
+        <li class="w3-light-grey w3-padding-24">
+          <a href="#SignUp" class="w3-hide-large w3-hide-medium w3-button w3-xxlarge w3-green w3-text-white">Sign-Up Now!</a>
+		  <a href="#SignUp" class="w3-hide-small w3-button w3-jumbo w3-green w3-text-white">Sign-Up Now!</a>
+        </li>
+		
+      </ul>
+	  </br>
+    </div>
+
+</div> <!-- End Fees & prizes Div -->
+
+<!-- Sign Up Div -->
+<div class="w3-container" id="SignUp" style="background-color: cyan;">
+	<form action="register.php" method="post" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+		<h1 class="w3-center w3-jumbo" id="sectHeader">Sign Up Now!</h1>
+		 <h2 class="w3-text-red w3-center"><b>Sign Up online and pay at the tournament!</b> </h2>
+		 <div class="w3-row w3-section ">
+		  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+			<div class="w3-rest">
+			  <input required class="w3-input  w3-xlarge w3-border" name="teamName" type="text" placeholder="Team Name">
+			</div>
+		</div>
+		
+		<div class="w3-row w3-section ">
+		  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+			<div class="w3-rest">
+			  <input required class="w3-input w3-xlarge w3-border" name="captFN" type="text" placeholder="Captain's First Name">
+			</div>
+		</div>
+
+		<div class="w3-row w3-section">
+		  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+			<div class="w3-rest">
+			  <input  required class="w3-input w3-xlarge w3-border" name="captLN" type="text" placeholder="Captain's Last Name">
+			</div>
+		</div>
+
+		<div class="w3-row w3-section">
+		  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+			<div class="w3-rest">
+			  <input required class="w3-input w3-xlarge w3-border" name="email" type="text" placeholder="Captain's Email">
+			</div>
+		</div>
+
+		<div class="w3-row w3-section">
+		  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+			<div class="w3-rest">
+			  <input required class="w3-input w3-xlarge w3-border" name="phone" type="text" placeholder="Captain's Phone">
+			</div>
+		</div>
+					
+		<button class="w3-button w3-block w3-section w3-blue w3-xxlarge w3-ripple w3-padding">Register!</button>
+		
+	</form>	
+
+
+</div> <!-- End Sign Up Div -->
+
+<!-- Contact Us Div -->
+<form action="contactus.php" method="post" id= "Contact" class=" w3-padding-24 w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+		<h1 class="w3-center w3-jumbo" id="sectHeader">Contact Us!</h1>
+		 
+		<div class="w3-row w3-section ">
+		  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+			<div class="w3-rest">
+			  <input required class="w3-input w3-border w3-xlarge" name="firstname" type="text" placeholder="First Name">
+			</div>
+		</div>
+
+		<div class="w3-row w3-section">
+		  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+			<div class="w3-rest">
+			  <input  required class="w3-input w3-xlarge w3-border" name="lastname" type="text" placeholder="Last Name">
+			</div>
+		</div>
+		
+		<div class="w3-row w3-section">
+		  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+			<div class="w3-rest">
+			  <input required class="w3-input w3-xlarge w3-padding-16 w3-border" type="text" placeholder="Message"  name="message">
+			</div>
+		</div>
+		<button class="w3-button w3-xxlarge w3-blue w3-block" type="submit">SEND MESSAGE</button>
+</form>
+<!-- End Contact Us Div -->
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p><a href="#home"  class="w3-hover-text-green">Dallas Grass Volleyball Cup</a></p>
+  <p><a style ="font-family: 'Comic Sans MS', cursive, sans-serif" onClick="parent.location='https://www.facebook.com/iQVoli/?notif_t=page_admin_removal&notif_id=1497922333261201'"  class="w3-hover-text-green">Brought to you by iQ Voli</a></p>
+</footer>
+<!-- JavaScript -->
+<script>
+
+
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-blue", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-blue";
+}
+document.getElementById("myLink").click();
+</script><!-- End of JavaScript -->
+</body>
+</html>

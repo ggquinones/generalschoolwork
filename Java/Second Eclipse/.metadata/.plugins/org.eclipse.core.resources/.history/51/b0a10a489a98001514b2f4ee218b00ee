@@ -1,0 +1,48 @@
+import java.util.Random;
+
+
+public class ArrayPractice 
+{
+	private int[] numbers;
+	private String[] names;
+	private Rectangle[] rectangles;
+	
+	public ArrayPractice(int number, String[] names){
+		numbers = new int[number];
+		rectangles = new Rectangle[number];
+		loadArrays();
+	}
+	public void loadArrays(){
+		for(int i=0; i<numbers.length; i++){
+			Random random = new Random();
+			numbers[i] = numbers.length+random.nextInt(numbers.length*2);
+			Rectangle rectangle = new Rectangle(Math.random(), Math.random());
+			rectangles[i] = rectangle;
+		}
+	}
+	public int[] getNumbers(){
+		int[] copiedNumbers = copyNumbers();
+		return copiedNumbers;
+	}
+	public Rectangle[] getRectangles(){
+		Rectangle[] copiedRectangles = copyRectangles();
+		return copiedRectangles;
+	}
+	private int[] copyNumbers(){
+		int[]temp = new int[numbers.length];
+		for(int i=0; i<numbers.length; i++){
+			temp[i] = numbers[i];
+		}
+		return temp;
+	}
+	private Rectangle[] copyRectangles(){
+		Rectangle[]temp = new Rectangle[rectangles.length];
+		for(int i=0; i<numbers.length; i++){
+			temp[i] = new Rectangle(rectangles[i]);
+		}
+		return temp;
+	}
+	
+	
+	
+}

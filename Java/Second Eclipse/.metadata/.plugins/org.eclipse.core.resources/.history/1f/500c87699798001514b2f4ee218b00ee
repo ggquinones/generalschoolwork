@@ -1,0 +1,73 @@
+import java.util.Random;
+
+
+public class ArrayPractice 
+{
+	 private int[] arrayNumber;
+	    private String[] arrayNames;
+	    private Rectangle[] rectangle;
+	    
+	    /**
+	     * The ArrayPractice method is a constructor takes two parameters: an int
+	     * and a String.
+	     * @param intInput; Takes an integer as the input. 
+	     * @param stringInput; Takes a string as the input.
+	     */
+	    public ArrayPractice (int intInput, String[] stringInput)
+	    {
+	        arrayNumber = new int[intInput];
+	        rectangle = new Rectangle[intInput];
+	        arrayNames = stringInput;
+	        loadArrays();
+	    }
+	    
+	    /**
+	     * The loadArrays method 
+	     */
+	    public void loadArrays()
+	    {
+	        Random rand = new Random();
+	        for (int count = 0; count < rectangle.length; count++)
+	        {
+	            arrayNumber[count] = rand.nextInt((arrayNumber.length*3) -
+	                    arrayNumber.length + 1) + arrayNumber.length;
+	            rectangle[count] = new Rectangle(Math.random(), Math.random());
+	        }
+	        
+	    }
+	    
+	    private int[] copyNumbers()
+	    {
+	        int[] temp = new int[arrayNumber.length];
+	        for (int count = 0; count < temp.length; count++)
+	        {
+	            temp[count] = arrayNumber[count];
+	        }
+	        return temp;
+	    }
+	    
+	    private Rectangle[] copyRectangles()
+	    {
+	        Rectangle[] temp = new Rectangle[rectangle.length];
+	        for (int count = 0; count < temp.length; count++)
+	        {
+	            temp[count] = new Rectangle(rectangle[count]);
+	        }
+	        return temp;
+	    }
+	    
+	    public int[] getCopyNumbers()
+	    {
+	        int accessor[] = copyNumbers();
+	        return accessor;
+	    }
+	    
+	    public Rectangle[] getCopyRectangles()
+	    {
+	        Rectangle accessor[] = copyRectangles();
+	        return accessor;
+	    }
+	
+	
+	
+}

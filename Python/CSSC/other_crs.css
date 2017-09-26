@@ -1,0 +1,13 @@
+/*
+    Moves video frames more towards the center
+*/
+iframe{
+    padding-left:50px;
+}
+/*
+    Adds grey line in between rows and space at bottom
+*/
+.col-lg-12{
+    border-bottom:10px solid grey;
+    padding-bottom:10px;
+}

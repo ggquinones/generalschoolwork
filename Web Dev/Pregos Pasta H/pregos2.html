@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Prego Pasta House</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+		
+		<style>
+		body, html {height: 100%}
+		body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+		.menu {display: none}
+		.bgimg {
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-image: url("background.jpg");
+			height: 90%;
+		}
+		
+		.tblHdr{
+			background-color:w3-red;
+		}
+		
+		
+		</style>
+		
+		
+	</head>
+	<body>
+		<!-- Navbar (sit on top) -->
+		<div class="w3-top w3-hide-small">
+		  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+			<a href="#" class="w3-bar-item w3-button">HOME</a>
+			<a href="#menu" class="w3-bar-item w3-button">MENU</a>
+			<a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+			<a href="#googleMap" class="w3-bar-item w3-button">CONTACT</a>
+		  </div>
+		</div>
+		
+		<div class="bgimg w3-display-container w3-row " id="home">
+		  
+			<div class="w3-col s12">
+				<div class="w3-display-bottomleft w3-padding">
+				<span class="w3-tag w3-xlarge">Open from 12pm to 10pm</span>
+				</div>
+				<div class="w3-display-middle w3-center">
+					<span class="w3-text-black w3-hide-small" style="font-size:100px">prego<br>PASTA HOUSE</span>
+					<span class="w3-text-black w3-hide-large w3-hide-medium" style="font-size:60px"><b>prego<br>PASTA HOUSE</b></span>
+					<p><a href="#" class="w3-button w3-xxlarge w3-black">Let me see the menu</a></p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="w3-container" >
+			<div class="w3-row w3-center" style="height:100%;">
+				<div class="w3-col m6 ">
+					<br>
+					<h1 class="w3-black">Hours</h1>
+					
+					<table class="w3-xlarge" style="width:100%;" >
+						<tr class="w3-red ">
+							<td>Days</td>
+							<td>Open During:</td>
+						</tr>
+						<tr>
+							<td class="w3-green">Monday - Friday</td>
+							<td class="w3-white w3-border ">12pm to 10pm</td>
+						</tr>
+						<tr >
+							<td class="w3-green">Saturdays</td>
+							<td class="w3-white w3-border ">9am to 12am</td>
+						</tr>
+						<tr >
+							<td class="w3-green">Sundays</td>
+							<td class="w3-white w3-border">9am to 6pm</td>
+						</tr>
+					</table>
+					
+				</div>
+				
+				<div class="w3-col m6">
+					<div id="map" style="width:100%;height:500px"></div>
+				</div>
+				<script>
+			function myMap() {
+			  var myCenter = new google.maps.LatLng(32.847838,-96.769706);
+			  var mapCanvas = document.getElementById("map");
+			  var mapOptions = {center: myCenter, zoom: 15};
+			  var map = new google.maps.Map(mapCanvas, mapOptions);
+			  var marker = new google.maps.Marker({position:myCenter});
+			  marker.setMap(map);
+			}
+		</script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZrrqQllE0EDZDat6fMZATrUa4kfruLJs&callback=myMap"></script>
+			</div>
+		</div>
+	</body>
+</html>

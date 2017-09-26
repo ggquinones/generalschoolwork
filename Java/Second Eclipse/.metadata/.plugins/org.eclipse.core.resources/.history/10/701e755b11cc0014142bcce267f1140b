@@ -1,0 +1,166 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+
+public class Employee extends Person
+{
+	private double salary;	
+	private ArrayList<Sale> sales = new ArrayList<Sale>();
+	
+	public Employee(String name, int number, String address, double salary)
+	{
+		super(name,number,address);
+		this.salary=salary;		
+		
+	}
+	
+	public void empSubMenu()
+	{
+		String name;
+		
+		name = JOptionPane.showInputDialog(null,"Welcome:\n"
+				+ "Please login by typing in your name:","Toy Store Login",JOptionPane.QUESTION_MESSAGE);
+
+		if(name==null || name.equals(""))
+		{
+			
+		}
+		if(checkForPerson(name)==false)
+		{
+			makeNewEmp();
+			empOptions();
+		}
+		else
+		{
+			empOptions();
+
+		}
+		
+		
+	}
+	
+	public void makeNewEmp()
+	{
+		String input1;
+		String input2;
+		String name;
+		int num;
+		double sal;
+		String address;
+		
+		name = JOptionPane.showInputDialog(null,"Welcome new Employee, please create account:\nPlease enter your name:","Toy Store Login",JOptionPane.QUESTION_MESSAGE);
+		address = JOptionPane.showInputDialog(null,"Please enter your address:","Toy Store Login",JOptionPane.QUESTION_MESSAGE);
+		input1 =(JOptionPane.showInputDialog(null,"Please enter your phone number(no hyphens,spaces, area code, or parentheses):","Toy Store Inventory",JOptionPane.QUESTION_MESSAGE));
+		input2 = (JOptionPane.showInputDialog(null,"Please enter your salary:","Toy Store Inventory",JOptionPane.QUESTION_MESSAGE));
+		while(name==null || name.equals("") ||input1==null || input1.equals("")||input2==null || input2.equals("")||address==null || address.equals(""))
+		{
+			JOptionPane.showMessageDialog(null,"Incorrect entry try again!","ERROR",JOptionPane.WARNING_MESSAGE);
+			name = JOptionPane.showInputDialog(null,"Welcome new Employee, please create account:\nPlease enter your name:","Toy Store Login",JOptionPane.QUESTION_MESSAGE);
+			address = JOptionPane.showInputDialog(null,"Please enter your address:","Toy Store Login",JOptionPane.QUESTION_MESSAGE);
+			input1 =(JOptionPane.showInputDialog(null,"Please enter your phone number(no hyphens,spaces, area code, or parentheses):","Toy Store Inventory",JOptionPane.QUESTION_MESSAGE));
+			input2 = (JOptionPane.showInputDialog(null,"Please enter your salary:","Toy Store Inventory",JOptionPane.QUESTION_MESSAGE));
+		}
+			
+		
+			num=Integer.parseInt(input1);
+			sal=Double.parseDouble(input2);
+			new Employee(name,num,address,sal);
+		
+		
+		
+	}
+	
+	public void empOptions()
+	{
+		String option;
+		int num;
+		option =(JOptionPane.showInputDialog(null,"Enter a request:\n"
+				+ "1) Add to Inventory\n"
+				+ "2)Print Sales\n"
+				+ "3)Return to main menu","Toy Store Employee Menu",JOptionPane.QUESTION_MESSAGE));
+		if(option==null)
+		{
+			num=3;
+		}
+		else
+		{
+			num=Integer.parseInt(option);
+		}
+		
+		
+		if(num==1)
+		{
+			addInventory();
+			empOptions();
+		}
+		else if(num==3 || option==null)
+		{
+			
+		}
+		else
+		{
+			printSales();
+			empOptions();
+		}
+	}
+	
+	
+	public void addInventory()
+	{
+		String name;
+		String description;
+		double price;
+		int amt;		
+		String input1;
+		String input2;
+		name = JOptionPane.showInputDialog(null,"Please enter the product name:","Toy Store Inventory",JOptionPane.QUESTION_MESSAGE);
+		if(checkForDbls(name)==true)
+		{
+			name=null;
+		}
+		description = JOptionPane.showInputDialog(null,"Please enter the product description:","Toy Store Inventory",JOptionPane.QUESTION_MESSAGE);
+		input1 = (JOptionPane.showInputDialog(null,"Please enter the product price:","Toy Store Inventory",JOptionPane.QUESTION_MESSAGE));
+		input2 =(JOptionPane.showInputDialog(null,"Please enter the amount of the product to be added to the inventory:","Toy Store Inventory",JOptionPane.QUESTION_MESSAGE));
+		while(name==null || name.equals("") ||description==null || description.equals("")||input2==null || input2.equals("")||input1==null || input2.equals(""))
+		{
+			JOptionPane.showMessageDialog(null,"Incorrect entry or last product already in inventory, try again!","ERROR",JOptionPane.WARNING_MESSAGE);
+			name = JOptionPane.showInputDialog(null,"Please enter the product name:","Toy Store Inventory",JOptionPane.QUESTION_MESSAGE);
+			description = JOptionPane.showInputDialog(null,"Please enter the product description:","Toy Store Inventory",JOptionPane.QUESTION_MESSAGE);
+			input1 = (JOptionPane.showInputDialog(null,"Please enter the product price:","Toy Store Inventory",JOptionPane.QUESTION_MESSAGE));
+			input2 =(JOptionPane.showInputDialog(null,"Please enter the amount of the product to be added to the inventory:","Toy Store Inventory",JOptionPane.QUESTION_MESSAGE));
+		}
+		price=Double.parseDouble(input1);
+		amt=Integer.parseInt(input2);
+		Inventory.addItem(new LineItem(new Product(name,description,price),amt));
+	}
+	
+	public boolean checkForDbls(String name)
+	{
+		for(int i=0;i<Inventory.getInventory().size();i++)
+		{
+			if(Inventory.getInventory().get(i).getProd().getName().equalsIgnoreCase(name))
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public void addSale(Sale sale)
+	{
+		sales.add(sale);
+	}
+	
+	
+	public String printSales()
+	{
+		String holder=getName()+"\n";
+		for(int i =0;i<sales.size();i++)
+		{
+			holder+=sales.get(i).toString();
+		}
+		return holder;
+	}
+}

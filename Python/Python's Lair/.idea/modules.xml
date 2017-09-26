@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CS274_Project/.idea/CS274_Project.iml" filepath="$PROJECT_DIR$/../CS274_Project/.idea/CS274_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Python's Lair.iml" filepath="$PROJECT_DIR$/.idea/Python's Lair.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Research/.idea/Research.iml" filepath="$PROJECT_DIR$/../Research/.idea/Research.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SeniorDesign/.idea/SeniorDesign.iml" filepath="$PROJECT_DIR$/../SeniorDesign/.idea/SeniorDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tester/.idea/tester.iml" filepath="$PROJECT_DIR$/../tester/.idea/tester.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../website/.idea/website.iml" filepath="$PROJECT_DIR$/../website/.idea/website.iml" />
+    </modules>
+  </component>
+</project>

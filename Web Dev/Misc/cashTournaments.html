@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  
+  <style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+    /*  NEED TO TAKE OFF all row.contentandswitch to row */
+    .row.content {
+	height: 1000px;
+	}
+    #compStat{
+		
+		background-image: url("jousting.jpg");		
+		padding:50px;
+		background-repeat: no-repeat;
+		height:100%;
+		width:100%;
+	}
+	#jumbo{
+		background-color: 	hsl(216, 100%, 85%);
+		padding:50px;
+		color:white;
+		
+	}
+	
+	
+	
+	
+	#rules{
+		background-color: 	hsl(240, 100%, 40%);	
+	}
+	#setUp{
+		background-color: hsl(216, 100%, 75%);
+		
+	}	
+    
+	/*Used in Fees and Prizes to format the panels */
+	.panel-body{
+		background-color:red;
+		color:white;
+		
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+		
+	}
+	
+	.panel-heading{
+		line-height: 1.8;
+	}
+	#feesPrizes{
+		background-color: white;
+		
+	}
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" >
+
+<!-- Navigation Bar for the website. Clipped to top of webpage. -->
+<nav class="navbar navbar-inverse navbar-fixed-top ">
+  
+    <div class="container-fluid" >
+		<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			  </button>
+			  <a class="navbar-brand" href="cashTournaments.html">Cash Tournament</a>
+		</div>
+    
+		<div class="collapse navbar-collapse" id="myNavbar">
+			  <ul class="nav navbar-nav">
+				<li ><a href="#setUp">Set Up & Rules</a></li>
+				<li><a href="#rules">Rules</a></li>
+				<li><a href="#feesPrizes">Fees & Prizes</a></li>
+				<li><a href="SignUp.html">Sign Up!</a></li>  				
+			  </ul>
+		</div>
+	
+    </div>
+</nav><!-- End of Navigation Bar Code -->
+
+
+<!-- Start of page content. 
+	Order:
+	1) Company Statement of some sort.
+	2) Set-Up of Tournament
+	3) Rules
+	4) Sign Up Now
+ -->
+ </br></br>
+ <!-- Start of Company Statement -->
+<div class="container-fluid" id="compStat" >  
+	<div class="row.content" >
+		</br>
+		<!-- Spacer column -->
+		<div class="col-sm-1">
+		</div>
+	
+		<div class="col-sm-10">
+			<div id="jumbo" class="jumbotron text-center" style="text-align:center">
+				<h1><strong>Welcome to Metroplex Summer Joust<strong></h1> 
+						<h3>
+							Dallas Cash Tournaments is dedicated to providing high level volleyball tournaments</br>
+							with cash prizes!
+						</h3> 
+			</div>
+		</div>
+	
+		<!-- Spacer column -->
+		<div class="col-sm-1">
+		</div>	
+  </div> 
+</div> <!-- End of Company Statement Code-->
+
+<!-- Start of Set-Up -->
+<div class="container-fluid" id="setUp" >	 
+	 </br>
+ <div class="row.content" >
+	<div class = "col-sm-2">
+		
+	</div>
+	
+	<div class="col-sm-8">
+		<div class="well">
+			<h2 style ="text-align:center"><strong>Set-Up</strong></h2></br>
+			<ul class="list-group">
+				 <li class="list-group-item">
+					<h3 ><strong>4 vs 4</strong></h3></br>
+					<p>-5 players maximum per team</p>
+				 </li>
+				 <li class="list-group-item">
+					<h3><strong>Small Court</strong></h3></br>
+					<p>-Beach doubles court divided into 4 zones, 2 front row and 2 back row</p>
+				 </li>
+				 <li class="list-group-item">
+					<h3><strong>Pool Play</strong></h3></br>
+					<p>-Randomly made pools</p>
+				 </li>
+				 <li class="list-group-item">
+					<h3><strong>Single Elimination Playoffs</strong></h3></br>
+					<p>-Seeded based on pool results</p>
+				 </li>
+			</ul>
+		</div>		
+	</div>
+	
+ </div> 
+</div> <!-- End of Set-Up Code -->
+
+<!-- Start of Rules Code-->
+<div class="container-fluid" id="rules" >
+</br>
+	<div class="row.content">
+		<div class="col=sm=12">
+			<div class="well">
+			<h2 style ="text-align:center"><strong>RULES</strong></h2></br>
+			<h3 ><strong>INDOOR RULES EXCEPT:</strong></h3></br>
+			<ul class="list-group">	
+				
+				 <li class="list-group-item">
+					<h5><strong>- Only two players can attack from the front row</strong></h5></br>
+				 </li>
+				 
+				 <li class="list-group-item">
+					<h5><strong>- Players rotate clockwise amongst the 4 zones (instead of 6)</strong></h5></br>
+				 </li>
+				
+				<li class="list-group-item">
+					<h5><strong>- Only two players can hit front row (instead of 3)</strong></h5></br>
+				 </li>
+				 
+				 <li class="list-group-item">
+					<h5><strong>- No open hand tips</strong></h5></br>
+				 </li>
+			</ul>
+		</div>
+		</div>
+	</div>
+</div> <!-- End of Rules Code -->
+
+<!-- Start of Fees & Prizes Code -->
+<div class="container-fluid" id="feesPrizes">
+</br>
+  <div class="text-center">
+    <h2>Fees & Prizes</h2>
+    <h4>Choose a payment plan that works for you!</h4>
+  </div>
+  <div class="row">
+  
+	<!-- Entries Section -->
+    <div class="col-sm-6">
+      
+		<div class="panel panel-default text-center">
+        
+			<div class="panel-heading">
+				<h1><strong>Entry Includes</strong></h1>
+			</div>
+        
+			<div class="panel-body">
+				<p><strong>Tournament T-Shirt</strong> </p>
+				<p><strong>3 Pool play Matches</strong> </p>
+				<p><strong>Prizes for top two teams!</strong> </p>
+			</div>
+		
+			<div class="panel-footer"> 
+			</div>
+		
+      </div>
+	  
+    </div>
+	
+	<!-- Prizes Section -->
+    <div class="col-sm-6">
+	
+		<div class="panel panel-default text-center">
+	  
+			<div class="panel-heading">
+				<h1><strong>Prizes</strong></h1>
+			</div>
+		
+			<div class="panel-body">
+				<p><strong>First Place</strong> $250</p>
+				<p><strong>Second Place</strong> $125</p>
+				</br></br>         
+			</div>
+		
+			<div class="panel-footer">
+			</div>
+      
+		</div>
+	</div>
+	
+	<!-- Sign-Up Section -->
+	<div class="col-sm-12">
+		<div class="panel panel-default text-center">
+			<div class="panel-heading">
+				<h1><strong>Prizes</strong></h1>
+			</div>
+				
+			<div class="panel-body">
+				<h3>Sign up now for:</h3></br>
+				<p style="font-size:50px"><strong>$115</strong></p></br>
+				<a href="SignUp.html" class="btn btn-success btn-lg" role="button">Sign-Up Now</a>
+				<h5>($125 if you pay at the tournament)</h5></br>
+			</div>
+			
+			<div class="panel-footer"> 
+			</div>
+		</div> 
+	</div>
+	
+</div>
+  </br>
+</div> <!-- End of Fees & Prizes Code -->
+
+</body>
+</html>

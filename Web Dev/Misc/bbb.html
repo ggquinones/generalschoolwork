@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<?php
+	$dom = new DOMDocument();
+    //libxml_use_internal_errors(true); hides nav bar error
+	if (!$dom->loadHTMLFile("bbb.html")) 
+	{
+		die ('Could not parse...');
+	}
+	$sun = array();
+	$mon = array();
+	$tue = array();
+	$wed = array();
+	$thu = array();
+	$fri = array();
+	$sat = array();
+	$days = array("sun","mon","tue","wed","thu","fri","sat");
+	$nums = array(10,11,12,1,2,3,4,5,6,7,8);
+	$AV = array(array());
+	
+	for($i =0;$i < 1;$i++)
+	{
+		for($k = 0;$k < 11;$k++)
+		{
+			//AV[i][k] = availability(substr($dom->getElementById($days[i] . $nums[i])->getAttribute("style"),11,strlen($color)-12)));
+			$style = $dom->getElementById($days[$i] . $nums[$k])->getAttribute("style"); // gets whatevers is the style attribute
+			echo(substr($dom->getElementById($days[$i] . $nums[$k])->getAttribute("style"),11,strlen($style)-12)); // assuming background is first and only thing in style gets the color
+			//echo($days[$i] . $nums[$k] . "<br>"); works!
+		}
+	}
+
+
+
+?>
+
+
+<html>
+	<head>
+		<title>iQVoli</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+	</head>
+	<style>
+		.btn{color:white;}
+	</style>
+	<body>
+		
+		
+		
+		<!-- Grid for schedule outer container -->
+		<div class="container-fluid">
+			
+			<!-- Has all the columns -->
+			<div class="row">
+			
+				<div class="col-sm-1">
+					
+					<button type="button" class="w3-button w3-xxlarge" onclick="changeColumnColor(this) ">Sunday</button>
+					<button id="sun11" type="button" class="btn" style="background:green;" onclick="changeColor(this) ">11:00 am</button>
+					<button  id="sun12" type="button" class="btn" style="background:green;" onclick="changeColor(this) ">12:00 pm</button>
+					
+				</div>
+				
+				
+				<div class="col-sm-1">.col-sm-4</div>
+				<div class="col-sm-1">.col-sm-4</div>
+				<div class="col-sm-1">.col-sm-4</div>
+				<div class="col-sm-1">.col-sm-4</div>
+				<div class="col-sm-1">.col-sm-4</div>
+				<div class="col-sm-1">.col-sm-4</div>
+			</div>
+		</div>
+
+		
+	</body>
+		
+		<script>
+			
+		function changeColor(elem)		
+		{		
+			var newBtn = elem;
+			
+			
+			if(elem.style.background == "green")
+			{
+				newBtn.style.background = "red";
+				newBtn.style.color = "white";				
+				elem.parentNode.replaceChild(newBtn, elem);
+				//elem.style.background = "red";
+				//elem.style.color = "white";
+			}
+			else if(elem.style.background == "red")
+			{
+				newBtn.style.background = "yellow";
+				newBtn.style.color = "black";				
+				elem.parentNode.replaceChild(newBtn, elem);
+				//elem.style.background = "yellow";
+				//elem.style.color = "black";
+			}
+			else
+			{
+				newBtn.style.background = "green";
+				newBtn.style.color = "white";				
+				elem.parentNode.replaceChild(newBtn, elem);
+				//elem.style.background = "green";
+				//elem.style.color = "white";
+			}
+		}
+		
+		function changeColumnColor(thing)
+		{
+			elems = document.getElementById("sunday");
+			bckgrnd = elems[0].style.backgroundColor();
+			textColor = elems[0].style.color();
+			for( i=1;i<elems.length;i++)
+			{
+				elems[i].style.background = bckgrnd;
+					elems[i].style.color = textColor;
+			}
+		}
+		
+	</script>
+</html>

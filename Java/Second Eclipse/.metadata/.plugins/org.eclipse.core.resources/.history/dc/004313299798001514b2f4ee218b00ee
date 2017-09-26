@@ -1,0 +1,93 @@
+import java.util.Random;
+
+
+public class ArrayPractice 
+{
+	 // DATA FIELDS
+    private int[] intArray;
+    private String[] strArray;
+    private Rectangle[] rectArray;
+    
+    // METHODS
+    
+    /**
+     * constructor
+     * @param num gives the length of the arrays
+     * @param arr assigned to strArray
+     */
+    public ArrayPractice(int num, String[] arr)
+    {
+        intArray = new int[num];
+        rectArray = new Rectangle[num];
+        strArray = arr;
+        
+        loadArrays();
+    }
+    
+    /**
+     * give values to intArray and rectArray, randomly
+     */
+    public void loadArrays()
+    {
+        Random rd = new Random();
+        for (int i=0; i < intArray.length; i++)
+        {
+            intArray[i] = rd.nextInt(2*intArray.length)+intArray.length; // between array length and 3 times the length
+            
+            Rectangle rect = new Rectangle(Math.random(),Math.random()); // new object each turn, length and width between 0 and 1
+            rectArray[i] = rect;
+        }
+    }
+    
+    /**
+     * accessor
+     * @return the return value of the copy method
+     */
+    public int[] getIntArray()
+    {
+        return copyIntArray();
+    }
+    
+    /**
+     * accessor
+     * @return the return value of the copy method 
+     */
+    public Rectangle[] getRectArray()
+    {
+        return copyRectArray();
+    }
+    
+    /**
+     * @return a copy of the data field intArray
+     */
+    private int[] copyIntArray()
+    {
+        int[] temp = new int[intArray.length];
+        for(int i=0; i<temp.length; i++)
+        {
+            temp[i] = intArray[i]; // each index of the data field is copied to each index of the temp array
+        }
+        
+        return temp;
+    }
+    
+    /**
+     * @return a copy of the data field rectArray
+     */
+    private Rectangle[] copyRectArray()
+    {
+        Rectangle[] temp = new Rectangle[rectArray.length];
+        for(int i=0; i<temp.length; i++)
+        {
+            temp[i] = new Rectangle(rectArray[i]); // each index of the data field is copied to each index of the temp array
+        }
+        
+        return temp;
+    }
+    
+	
+	
+	
+	
+	
+}

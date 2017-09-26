@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Beach Ellum Luau</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+	#myCarousel{
+		width: 100%;	
+	}
+	
+	body,h1,h2,h3,h4,h5,h6 {font-family: 'Shadows Into Light', cursive;}
+	
+  .carousel-inner img {
+      
+      margin: auto;
+      min-height:200px;
+  }
+#myCarousel,#footer {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, white , Fuchsia ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, white, Fuchsia ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, white, Fuchsia ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, white , Fuchsia ); /* Standard syntax */
+}
+   #info{
+  background: red; /* For browsers that do not yellow gradients */
+  background: -webkit-linear-gradient(left, LightSteelBlue  , SteelBlue ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, LightSteelBlue , SteelBlue ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, LightSteelBlue , SteelBlue ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, LightSteelBlue  , SteelBlue ); /* Standard syntax */
+}
+
+#grad{
+  background-image:url("sandbarcantina.0.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+  
+}
+  
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Beach Ellum Luau</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="SignUp.html">Sign Up</a></li>
+        <li><a href="forum.php">Find a Player/Team</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide w3-pink w3-padding-16" data-ride="carousel">
+   
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      
+	  <div class="item active">
+        <img src="banner2.png" alt="banner" id="banner">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>      
+      </div>
+	
+	<div class="item">
+        <img src="format.png" alt="Image" id="format">
+        <div class="carousel-caption">          
+        </div>      
+      </div>
+	  
+      <div class="item">
+        <img src="drinks.png" alt="Image" id="drinkspecials">
+        <div class="carousel-caption">          
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+<div class="container    text-center   w3-padding-64" id="grad" style="width:100%;">    
+  <br>
+  <div class="row w3-padding-16">
+    <div class="col-sm-3 w3-hover-shadow w3-padding-16 w3-center " id="btn1">
+      <img src="signupbtn.png" onClick="parent.location='SignUp.html'" class="img-rounded img-responsive center-block w3-topbar w3-bottombar w3-rightbar w3-leftbar w3-border-black"  alt="Image">
+      
+    </div>
+	
+	<div class="col-sm-1"></div>
+	 
+    <div class="col-sm-4 w3-hover-shadow w3-padding-16 " id="btn2"> 
+      <img src="forumbtn.png" onClick="parent.location='forum.php'" class="img-rounded img-responsive center-block w3-topbar w3-bottombar w3-rightbar w3-leftbar w3-border-black"  alt="Image">
+          
+    </div>
+	<div class="col-sm-1"></div>
+    <div class="col-sm-3 w3-hover-shadow w3-padding-16 " id="btn3">
+      <img src="contactus.png" onClick="parent.location='contactus.html'" class="img-rounded img-responsive center-block w3-topbar w3-bottombar w3-rightbar w3-leftbar w3-border-black"  alt="Image">
+    </div>
+  </div>
+  <br>
+</div>
+
+<!-- Location Container -->
+<div class="w3-container w3-whole w3-padding-64 w3-center" id="info">
+	
+		<div class="jumbotron w3-red">
+			<h1> <span class="w3-tag  w3-xxlarge">Players are invited to place their beach chairs, umbrellas, and canopy tents in the middle court throughout the day.</span></h1>
+			<h1><span class="w3-tag w3-xlarge ">Court #1 will be opened for players to set up in once the tournament begins to die down.</span></h1>
+			
+		</div>
+	
+</div>
+<!-- Location Container -->
+
+
+
+<footer class="w3-center w3-black w3-padding-64  ">
+  
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+  </div>
+  <p>Brought to you by <a href="#" target="_blank" class="w3-hover-text-orange">Concrete Jungle Volleyball</a></p>
+</footer>
+
+</body>
+</html>

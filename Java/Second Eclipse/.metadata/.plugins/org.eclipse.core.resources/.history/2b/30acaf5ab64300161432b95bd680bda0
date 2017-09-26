@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+public class Runner {
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+		ArrayList<String> movies = new ArrayList<>();
+		boolean DONE =false;
+		Scanner kb = new Scanner(System.in);
+		String movie="";
+		while(!DONE)
+		{
+			System.out.println("Enter Movie Name or / to exit:");
+			movie=kb.nextLine();
+			if(movie.equals("/"))
+			{
+				DONE=true;
+				continue;
+			}
+			else
+			{
+				movies.add(movie);
+			}
+			
+		}
+		
+	}
+
+}
